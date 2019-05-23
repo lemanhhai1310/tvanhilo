@@ -27,10 +27,15 @@
         foreach ($item as $k1 => $v1) { ?>
             <li>
                 <img src="<?= $v1['src']; ?>" alt="" uk-cover>
+                <div class="uk-position-bottom-center box1 uk-text-center uk-margin-large" uk-scrollspy="target: > div; cls: uk-animation-slide-bottom; repeat: true;">
+                    <?php foreach ($v1['link_txt'] as $k2 => $v2) { ?>
+                        <div class="uk-display-inline-block"><a href="#" class="uk-button btn1 uk-button-secondary"><?= $v2; ?></a></div>
+                    <?php } ?>
+                </div>
             </li>
         <?php } ?>
     </ul>
-    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+    <a class="uk-position-center-left nav_slide_home uk-position-small uk-padding-remove uk-margin-remove uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+    <a class="uk-position-center-right nav_slide_home uk-position-small uk-padding-remove uk-margin-remove uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
     <ul class="uk-position-bottom dot_slide_home uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
 </div>

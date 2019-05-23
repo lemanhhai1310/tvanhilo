@@ -7,6 +7,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/uikit-3.1.5/css/uikit.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/layout.css">
     <!--JS-->
     <script src="assets/jquery/jquery-3.3.1.js"></script>
