@@ -18,7 +18,47 @@
   }
 }
 //=====================================
-
+.title1{
+  font-size: 18px;
+  color: #444444;
+}
 //=====================================
-
+.box3{
+  i.fa{
+    width: 88px;
+    height: 88px;
+    background-color: #eeedec;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #f57014;
+  }
+}
 //=====================================
+.title2{
+  border-bottom: 1px solid #f57014;
+  padding-bottom: 15px;
+  font-size: 22px;
+}
+//=====================================
+.desc1{
+  font-size: 15px;
+}
+//=====================================
+.title3{
+  font-size: 16px;
+  b{
+    color: #f57014;
+  }
+}
+//=====================================
+.list1{
+  font-size: 15px;
+  li{
+    &:nth-child(n+2){
+      margin-top: 5px;
+    }
+  }
+}
