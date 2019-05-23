@@ -32,4 +32,5 @@
     </ul>
     <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
     <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+    <ul class="uk-position-bottom dot_slide_home uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
 </div>
