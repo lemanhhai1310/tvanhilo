@@ -37,5 +37,6 @@
     </ul>
     <a class="uk-position-center-left nav_slide_home uk-position-small uk-padding-remove uk-margin-remove uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
     <a class="uk-position-center-right nav_slide_home uk-position-small uk-padding-remove uk-margin-remove uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
     <ul class="uk-position-bottom dot_slide_home uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
 </div>
