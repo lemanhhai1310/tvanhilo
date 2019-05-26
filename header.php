@@ -15,7 +15,7 @@
     <script src="assets/uikit-3.1.5/js/uikit-icons.min.js"></script>
     <script src="assets/numeral/numeral.min.js"></script>
 </head>
-<body>
+<body class="<?= $page; ?>">
 <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
 <script>
@@ -42,3 +42,88 @@
      theme_color="#24892d">
 </div>
 <section id="app" class="uk-height-viewport uk-offcanvas-content">
+<header id="header" uk-sticky="animation: uk-animation-slide-top; top: 0">
+    <div class="top">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+
+            <div class="uk-navbar-left">
+
+                <ul class="uk-navbar-nav">
+                    <li><a href="#"><span uk-icon="icon: facebook; ratio: 1"></a></li>
+                    <li><a href="#"><span uk-icon="icon: youtube; ratio: 1"></span></a></li>
+                </ul>
+
+            </div>
+
+            <div class="uk-navbar-center">
+                <a class="uk-navbar-item uk-logo" href="#">HOTLINE 24/7: 1900 29 29 62</a>
+            </div>
+
+            <div class="uk-navbar-right">
+
+                <ul class="uk-navbar-nav">
+                    <li><a href="#">EMAIL: SUPPORT@TVANHILO.VN</a></li>
+                </ul>
+
+            </div>
+
+        </nav>
+    </div>
+    <div class="bottom">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+
+            <div class="uk-navbar-left">
+                <a class="uk-navbar-item uk-logo" href="."><img src="imgs/logo1.png" alt=""></a>
+            </div>
+
+            <div class="uk-navbar-right">
+
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active"><a href="#">trang chủ</a></li>
+                    <li>
+                        <a href="#">hóa đơn điện tử <i class="fa fa-angle-down uk-margin-small-left" aria-hidden="true"></i></a>
+                        <ul class="uk-nav uk-navbar-dropdown uk-navbar-dropdown-nav">
+                            <li><a href="#">Active</a></li>
+                            <li><a href="#">Item</a></li>
+                            <li><a href="#">Item</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">hóa đơn phong thủy <i class="fa fa-angle-down uk-margin-small-left" aria-hidden="true"></i></a>
+                        <ul class="uk-nav uk-navbar-dropdown uk-navbar-dropdown-nav">
+                            <li><a href="#">Active</a></li>
+                            <li><a href="#">Item</a></li>
+                            <li><a href="#">Item</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">kiến thức <i class="fa fa-angle-down uk-margin-small-left" aria-hidden="true"></i></a>
+                        <ul class="uk-nav uk-navbar-dropdown uk-navbar-dropdown-nav">
+                            <li><a href="#">Active</a></li>
+                            <li><a href="#">Item</a></li>
+                            <li><a href="#">Item</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">chi nhánh & đại lý <i class="fa fa-angle-down uk-margin-small-left" aria-hidden="true"></i></a>
+                        <ul class="uk-nav uk-navbar-dropdown uk-navbar-dropdown-nav">
+                            <li><a href="#">Active</a></li>
+                            <li><a href="#">Item</a></li>
+                            <li><a href="#">Item</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><span class="uk-button uk-button-secondary">đăng ký <i class="fa fa-angle-down uk-margin-small-left" aria-hidden="true"></i></span></a>
+                        <ul class="uk-nav uk-navbar-dropdown uk-navbar-dropdown-nav">
+                            <li><a href="#">Active</a></li>
+                            <li><a href="#">Item</a></li>
+                            <li><a href="#">Item</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+
+        </nav>
+    </div>
+</header>

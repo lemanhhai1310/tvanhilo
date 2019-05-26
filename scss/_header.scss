@@ -1,3 +1,95 @@
+#header{
+  -webkit-box-shadow: 0 0 3px 0 rgba(0,0,0,.22);
+  .home &{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    & + .uk-sticky-placeholder{
+      display: none;
+    }
+  }
+  .top{
+    background-color: #f57014;
+    .uk-navbar-nav{
+      >li{
+        >a{
+          @extend .mh_top;
+        }
+      }
+    }
+    .uk-logo{
+      @extend .mh_top;
+    }
+    .uk-navbar-left{
+      .uk-navbar-nav{
+        >li{
+          >a{
+            padding: 0 7px;
+            border-right: 1px solid rgba(0,0,0,.1);
+          }
+        }
+      }
+    }
+    .uk-navbar-right{
+      .uk-navbar-nav{
+        >li{
+          >a{
+            padding: 0 7px;
+            border-left: 1px solid rgba(0,0,0,.1);
+          }
+        }
+      }
+    }
+  }
+  &.uk-active{
+    .bottom{
+      background-color: #fff;
+      .uk-navbar-nav{
+        >li{
+          >a{
+            min-height: 70px !important;
+            color: #333333;
+          }
+        }
+      }
+      .uk-logo{
+        min-height: 70px !important;
+        img{
+          height: 39px;
+        }
+      }
+    }
+  }
+  .bottom{
+    border-bottom: 1px solid rgba(255,255,255,.25)!important;
+    .uk-navbar-nav{
+      >li{
+        >a{
+          @extend .mh_bottom;
+        }
+      }
+    }
+    .uk-logo{
+      @extend .mh_bottom;
+      img{
+        height: 45px;
+        transition: height 0.4s ease;
+      }
+    }
+  }
+}
+.mh_top{
+  min-height: 34px;
+  font-size: 14px;
+  color: #ffffff;
+}
+.mh_bottom{
+  min-height: 101px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #FFFFFF;
+  transition: min-height 0.4s ease;
+}
 //=====================================
 
 //=====================================

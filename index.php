@@ -1,3 +1,4 @@
+<?php $page = "home"; ?>
 <?php include "header.php"; ?>
 <?php include "slider_home.php"; ?>
 <div class="uk-grid-collapse uk-child-width-1-3@m block1" uk-grid uk-height-match="target: > div > .box2">
@@ -125,7 +126,7 @@
     </div>
 </div>
 <div class="uk-section block2" id="counter">
-    <div class="uk-child-width-1-4@m" uk-grid>
+    <div class="uk-child-width-1-2 uk-child-width-1-4@m" uk-grid>
         <?php
         $item = array
         (
@@ -149,7 +150,7 @@
         foreach ($item as $k1 => $v1) { ?>
             <div>
                 <div class="uk-text-center">
-                    <span class='counter-value' data-count="<?= $v1['number']; ?>">0</span>
+                    <span class='counter-value uk-text-truncate' data-count="<?= $v1['number']; ?>">0</span>
                     <p class="desc2"><?= $v1['desc']; ?></p>
                 </div>
             </div>
@@ -207,19 +208,139 @@
                         'Có sẵn kho mẫu hóa đơn đa dạng, do đó khách hàng có thể chủ động lựa chọn mẫu hóa đơn hoặc sử dụng dịch vụ thiết kế mẫu hóa đơn theo yêu cầu riêng của doanh nghiệp.',
                     ),
                 ),
+                array(
+                    'title' => 'TIỆN ÍCH KHÁC BIỆT',
+                    'list_txt' => array(
+                        'Hệ thống phần mềm có thêm danh mục quản lý khách hàng, sản phẩm.',
+                        'Hỗ trợ tính năng upload khách hàng và sản phẩm nhanh chóng, tiện lợi.',
+                        'Đáp ứng khả năng phát hành hóa đơn hàng loạt của doanh nghiệp.',
+                        'Hỗ trợ đa dạng các loại báo cáo, thống kê như: tình hình sử dụng hóa đơn, báo cáo tổng hợp, chi tiết bán hàng…',
+                        'Chức năng phân quyền người dùng theo nhu cầu quản trị.',
+                        'Không giới hạn số lượng máy và địa điểm sử dụng.',
+                        'Cung cấp nhiều hình thức tra cứu hóa đơn cho khách hàng của doanh nghiệp.',
+                    ),
+                ),
+                array(
+                    'title' => 'KHẢ NĂNG MỞ RỘNG – KẾT NỐI',
+                    'list_txt' => array(
+                        'Có khả năng tích hợp đầy đủ các tính năng cho quy trình tạo lập và xác thực hóa đơn theo yêu cầu của Tổng cục Thuế.',
+                        'Khả năng tính hợp dữ liệu cao với phần mềm có sẵn của doanh nghiệp như: ERP, SAP, CRM, phần mềm kế toán…',
+                        'Cập nhật, nâng cấp và update phiên bản phần mềm theo nhu cầu của doanh nghiệp, xu hướng và các thay đổi, quy định của cơ quan Thuế…',
+                        'Sẵn sàng kết nối với cổng xác thực của cơ quan Thuế.',
+                    ),
+                ),
             );
             foreach ($data as $k1 => $v1) { ?>
                 <div>
                     <h3 class="title4 uk-text-uppercase uk-text-center"><?= $v1['title']; ?></h3>
-                    <ul class="uk-list">
+                    <ul class="uk-list" uk-scrollspy="target: > li; cls: uk-animation-slide-left-small; repeat: true; delay: 500;">
                         <?php foreach ($v1['list_txt'] as $k2 => $v2) { ?>
-                            <li>
+                            <li class="uk-position-relative uk-padding uk-padding-remove-right uk-padding-remove-top uk-padding-remove-bottom">
+                                <i class="fa fa-star uk-position-top-left" style="top: 2px; color: #f57014;" aria-hidden="true"></i>
                                 <?= $v2; ?>
                             </li>
                         <?php } ?>
                     </ul>
                 </div>
             <?php } ?>
+        </div>
+    </div>
+</div>
+<div class="uk-child-width-1-3@m uk-grid-collapse" uk-grid uk-height-match="target: > div > .uk-card">
+    <?php
+    $data = array
+    (
+        array(
+            'title' => 'Tận tâm Tư vấn & Hỗ trợ',
+            'desc' => 'Hóa đơn điện tử Hilo-Invoice luôn sẵn sàng hỗ trợ khách hàng 24/7 với đội ngũ tư vấn viên tận tâm & giàu kinh nghiệm',
+            'btn' => 'GỌI 1900 29 29 62',
+            'color' => '#da615a',
+            'icon' => '<i class="fa fa-diamond" aria-hidden="true"></i>',
+        ),
+        array(
+            'title' => 'Thủ tục Nhanh gọn – Đơn giản',
+            'desc' => 'Hilo-Invoice hỗ trợ khách hàng thực hiện các thủ tục với cơ quan thuế cấp phép sử dụng HĐĐT',
+            'btn' => 'XEM QUY TRÌNH',
+            'color' => '#5ca783',
+            'icon' => '<i class="fa fa-television" aria-hidden="true"></i>',
+        ),
+        array(
+            'title' => 'Đăng ký ngay!',
+            'desc' => 'Đăng ký ngay để sử dụng hóa đơn điện tử cho hoạt động kinh doanh của bạn theo quy định của cơ quan Thuế',
+            'btn' => 'ĐĂNG KÝ NGAY',
+            'color' => '#f2b72c',
+            'icon' => '<i class="fa fa-star-o" aria-hidden="true"></i>',
+        ),
+    );
+    foreach ($data as $k1 => $v1) { ?>
+        <div>
+            <div class="uk-card uk-card-body card1" style="background-color: <?= $v1['color']; ?>">
+                <h3 class="title5"><?= $v1['title']; ?></h3>
+                <p class="desc3"><?= $v1['desc']; ?></p>
+                <a href="#" class="uk-button uk-button-default uk-position-relative">
+                    <span><?= $v1['btn']; ?></span>
+                    <?= $v1['icon']; ?>
+                </a>
+            </div>
+        </div>
+    <?php } ?>
+</div>
+<div class="uk-container">
+    <div class="uk-section-small">
+        <div uk-slider>
+
+            <div class="uk-position-relative">
+
+                <div class="uk-slider-container uk-light">
+                    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-6@l uk-grid-small" uk-grid>
+                        <?php
+                        $data = array
+                        (
+                            'imgs/brand/airimex.png',
+                            'imgs/brand/anphat.png',
+                            'imgs/brand/minhviet.png',
+                            'imgs/brand/moolez-logo-1.png',
+                            'imgs/brand/pvoil-logo.png',
+                            'imgs/brand/qbis-logo-1.png',
+                            'imgs/brand/quang-minh.png',
+                            'imgs/brand/Vtvcab.png',
+                        );
+                        foreach ($data as $k1 => $v1) { ?>
+                            <li>
+                                <img class="img1" src="<?= $v1; ?>" alt="">
+                            </li>
+                        <?php } ?>
+                    </ul>
+                </div>
+
+                <div class="uk-hidden@s uk-light">
+                    <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                </div>
+
+                <div class="uk-visible@s">
+                    <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                </div>
+
+            </div>
+
+            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin" hidden></ul>
+
+        </div>
+    </div>
+    <hr>
+    <div class="uk-section-small">
+        <div class="uk-text-center">
+            <h2 class="title6">Hãy để chúng tôi giúp bạn!</h2>
+            <a href="#" class="btn2 uk-button uk-button-default uk-button-large">
+                <span>đăng ký sử dụng</span>
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="btn2 uk-button uk-button-default uk-button-large">
+                <span>đăng ký đại lý</span>
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </a>
         </div>
     </div>
 </div>
