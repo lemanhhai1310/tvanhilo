@@ -37,7 +37,7 @@
     <div class="uk-section">
         <div class="uk-child-width-1-4@m uk-grid-small" uk-grid uk-scrollspy="target: > div; cls: uk-animation-fade; repeat: true; delay: 500;">
             <?php
-            $item = array
+            $data = array
             (
                 array(
                     'src' => '<i class="fa fa-heart" aria-hidden="true"></i>',
@@ -77,7 +77,7 @@
                     ),
                 ),
             );
-            foreach ($item as $k1 => $v1) { ?>
+            foreach ($data as $k1 => $v1) { ?>
                 <div>
                     <div class="uk-text-center box3">
                         <?= $v1['src']; ?>

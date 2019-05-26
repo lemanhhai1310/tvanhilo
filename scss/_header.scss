@@ -1,3 +1,20 @@
+body{
+  &:not(.home){
+    #header{
+      .bottom{
+        background-color: #fff;
+        .uk-navbar-nav{
+          >li{
+            >a{
+              color: #333333;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//=====================================
 #header{
   -webkit-box-shadow: 0 0 3px 0 rgba(0,0,0,.22);
   .home &{
@@ -66,6 +83,13 @@
       >li{
         >a{
           @extend .mh_bottom;
+          .uk-button{
+            background-color: #f57014;
+            border-color: #f57014;
+            border-radius: 4px;
+            line-height: 32px;
+            padding: 0 15px;
+          }
         }
       }
     }
@@ -78,11 +102,13 @@
     }
   }
 }
+//=====================================
 .mh_top{
   min-height: 34px;
   font-size: 14px;
   color: #ffffff;
 }
+//=====================================
 .mh_bottom{
   min-height: 101px;
   font-size: 12px;
