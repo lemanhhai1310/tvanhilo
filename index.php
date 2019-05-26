@@ -124,5 +124,103 @@
         </div>
     </div>
 </div>
+<div class="uk-section block2" id="counter">
+    <div class="uk-child-width-1-4@m" uk-grid>
+        <?php
+        $item = array
+        (
+            array(
+                'number' => '4500',
+                'desc' => 'Khách hàng',
+            ),
+            array(
+                'number' => '15000000',
+                'desc' => 'Hóa đơn đã phát hành',
+            ),
+            array(
+                'number' => '30',
+                'desc' => 'Nhân viên',
+            ),
+            array(
+                'number' => '20',
+                'desc' => 'Đối tác liên kết',
+            ),
+        );
+        foreach ($item as $k1 => $v1) { ?>
+            <div>
+                <div class="uk-text-center">
+                    <span class='counter-value' data-count="<?= $v1['number']; ?>">0</span>
+                    <p class="desc2"><?= $v1['desc']; ?></p>
+                </div>
+            </div>
+        <?php } ?>
+    </div>
+    <script>
+        var a = 0;
+        $(window).scroll(function() {
 
+            var oTop = $('#counter').offset().top - window.innerHeight;
+            if (a == 0 && $(window).scrollTop() > oTop) {
+                $('.counter-value').each(function() {
+                    var $this = $(this),
+                        countTo = $this.attr('data-count');
+                    $({
+                        countNum: $this.text()
+                    }).animate({
+                            countNum: countTo
+                        },
+
+                        {
+
+                            duration: 2000,
+                            easing: 'swing',
+                            step: function() {
+                                $this.text(Math.floor(this.countNum));
+                            },
+                            complete: function() {
+                                // $this.text(this.countNum);
+                                $this.text(numeral(this.countNum).format('0,0'));
+                                //alert('finished');
+                            }
+
+                        });
+                });
+                a = 1;
+            }
+
+        });
+    </script>
+</div>
+<div class="uk-container">
+    <div class="uk-section-small">
+        <h2 class="title2 uk-text-center">TÍNH NĂNG NỔI BẬT</h2>
+        <div class="uk-child-width-1-3@m" uk-grid>
+            <?php
+            $data = array
+            (
+                array(
+                    'title' => 'HỆ THỐNG NỀN TẢNG',
+                    'list_txt' => array(
+                        'Hệ thống phần mềm hoạt động trên nền tảng online, sử dụng phiên bản website tiện lợi, thân thiện cho người dùng.',
+                        'Giao diện trực quan, dễ dàng sử dụng, quản lý theo danh mục.',
+                        'Hệ thống hỗ trợ lưu trữ online và offline. Đặc biệt, Hilo-Invoice luôn có 1 server chính để lưu trữ dữ liệu và 1 server để backup dữ liệu nhằm tránh rủi ro và đảm bảo hệ thống luôn được ổn định.',
+                        'Có sẵn kho mẫu hóa đơn đa dạng, do đó khách hàng có thể chủ động lựa chọn mẫu hóa đơn hoặc sử dụng dịch vụ thiết kế mẫu hóa đơn theo yêu cầu riêng của doanh nghiệp.',
+                    ),
+                ),
+            );
+            foreach ($data as $k1 => $v1) { ?>
+                <div>
+                    <h3 class="title4 uk-text-uppercase uk-text-center"><?= $v1['title']; ?></h3>
+                    <ul class="uk-list">
+                        <?php foreach ($v1['list_txt'] as $k2 => $v2) { ?>
+                            <li>
+                                <?= $v2; ?>
+                            </li>
+                        <?php } ?>
+                    </ul>
+                </div>
+            <?php } ?>
+        </div>
+    </div>
+</div>
 <?php include "footer.php"; ?>

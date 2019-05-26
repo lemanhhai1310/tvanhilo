@@ -13,6 +13,7 @@
     <script src="assets/jquery/jquery-3.3.1.js"></script>
     <script src="assets/uikit-3.1.5/js/uikit.min.js"></script>
     <script src="assets/uikit-3.1.5/js/uikit-icons.min.js"></script>
+    <script src="assets/numeral/numeral.min.js"></script>
 </head>
 <body>
 <!-- Load Facebook SDK for JavaScript -->
