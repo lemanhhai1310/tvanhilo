@@ -20,7 +20,7 @@ foreach ($data as $k1 => $v1) { ?>
 <?php } ?>
 <div class="uk-section">
     <div class="uk-container">
-        <h2 class="title2 uk-text-center">GIẢI PHÁP HĐĐT TỐI ƯU CHO DOANH NGHIỆP</h2>
+        <h2 class="title2 title9 uk-text-center">GIẢI PHÁP HĐĐT TỐI ƯU CHO DOANH NGHIỆP</h2>
         <article>
             <p>Hóa đơn điện tử Hilo-Invoice là sản phẩm của Công ty CP Dịch vụ T-VAN HILO. Được xây dựng và thiết kế tuân thủ theo quy định Thông tư 32/2011/TT-BTC của Bộ Tài Chính hướng dẫn về khởi tạo, phát hành và sử dụng hóa đơn điện tử bán hàng hóa, cung ứng dịch vụ và Nghị định 119/2018/NĐ-CP của Chính phủ quy định về hóa đơn điện tử khi bán hàng hóa, cung cấp dịch vụ.</p>
             <p>Theo đó, hóa đơn điện tử Hilo-Invoice có khả năng tích hợp đầy đủ các tính năng cho quy trình tạo lập và xác thực hóa đơn theo yêu cầu của Tổng cục Thuế. Đồng thời, phần mềm hóa đơn điện tử Hilo-Invoice hỗ trợ đầy đủ các mẫu hóa đơn: 01GTKT, 02GTTT, 07KPTQ… theo quy chuẩn.</p>
