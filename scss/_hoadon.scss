@@ -39,6 +39,32 @@
   }
 }
 //=====================================
+.card2{
+  background-color: #f57014;
+  .title{
+    color: #ffffff;
+    font-size: 17px;
+  }
+  .uk-list{
+    li{
+      color: #ffffff;
+      padding-left: 20px;
+      &:before{
+        display: none;
+      }
+      &:after{
+        content: "\f111";
+        font-family: FontAwesome;
+        color: #fff;
+        position: absolute;
+        top: 6px;
+        left: 0;
+        font-size: 7px;
+      }
+    }
+  }
+}
+//=====================================
 .title10{
   font-size: 19px;
   font-weight: 500;
