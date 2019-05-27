@@ -3,8 +3,59 @@
   font-weight: 700;
   font-size: 34px;
 }
-
+//=====================================
 .title9{
   font-weight: 700;
   font-size: 32px;
+}
+//=====================================
+.table1{
+  tr{
+    th{
+      background-color: #f57014;
+      color: #ffffff;
+      text-transform: inherit;
+      border: 1px solid #e5e5e5;
+      padding: 10px;
+      text-align: center;
+    }
+    td{
+      border: 1px solid #e5e5e5;
+      padding: 10px;
+    }
+  }
+}
+//=====================================
+.list3{
+  li{
+    padding-left: 20px;
+    position: relative;
+    i.fa{
+      position: absolute;
+      top: 3px;
+      left: 0;
+      color: #f57014;
+    }
+  }
+}
+//=====================================
+.title10{
+  font-size: 19px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  &:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #f57014;
+  }
+  &.c1{
+    &:after{
+      width: 20% !important;
+    }
+  }
 }
