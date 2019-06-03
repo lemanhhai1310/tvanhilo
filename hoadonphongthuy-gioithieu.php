@@ -102,33 +102,33 @@ foreach ($data as $k1 => $v1) { ?>
         </div>
     </div>
 </div>
-    <div class="uk-child-width-1-3@m uk-grid-collapse" uk-grid uk-height-match="target: > div > .uk-card">
-        <?php
-        $data = array
-        (
-            array(
-                'title' => 'NGHIÊN CỨU CẨN THẬN',
-                'desc' => 'Để đưa ra các mẫu Hóa Đơn Phong Thủy đến khách hàng, Hilo đã đầu tư hàng nghìn giờ làm việc cùng sự tư vấn của các chuyên gia có nhiều năm kinh nghiệm trong nghiên cứu Ngũ Hành Phong Thủy.',
-                'color' => '#da615a',
-            ),
-            array(
-                'title' => 'THIẾT KẾ RIÊNG BIỆT VÀ TỈ MỈ',
-                'desc' => 'Mỗi hình ảnh thể hiện các mệnh ngũ hành và nạp âm đều được phân tích và thiết kế tỉ mỉ, vừa đảm bảo thể hiện được ý nghĩa , vừa đảm bảo mang phong cách hiện đại, hợp lý, đẹp mắt.',
-                'color' => '#5ca783',
-            ),
-            array(
-                'title' => 'CHẤT LƯỢNG HÌNH ẢNH CỰC CAO',
-                'desc' => 'Hóa Đơn Phong Thủy Hilo Invoice có chất lượng hình ảnh rất cao với độ nét và độ tương phản hoàn hảo. Luôn đảm bảo chất lượng hình ảnh hóa đơn đẹp 100% cho dù bạn sử dụng để gửi đến đối tác qua email hoặc in màu và in đen trắng.',
-                'color' => '#f2b72c',
-            ),
-        );
-        foreach ($data as $k1 => $v1) { ?>
-            <div>
-                <div class="uk-card uk-card-body card1" style="background-color: <?= $v1['color']; ?>">
-                    <h3 class="title5"><?= $v1['title']; ?></h3>
-                    <p class="desc3"><?= $v1['desc']; ?></p>
-                </div>
+<div class="uk-child-width-1-3@m uk-grid-collapse" uk-grid uk-height-match="target: > div > .uk-card">
+    <?php
+    $data = array
+    (
+        array(
+            'title' => 'NGHIÊN CỨU CẨN THẬN',
+            'desc' => 'Để đưa ra các mẫu Hóa Đơn Phong Thủy đến khách hàng, Hilo đã đầu tư hàng nghìn giờ làm việc cùng sự tư vấn của các chuyên gia có nhiều năm kinh nghiệm trong nghiên cứu Ngũ Hành Phong Thủy.',
+            'color' => '#da615a',
+        ),
+        array(
+            'title' => 'THIẾT KẾ RIÊNG BIỆT VÀ TỈ MỈ',
+            'desc' => 'Mỗi hình ảnh thể hiện các mệnh ngũ hành và nạp âm đều được phân tích và thiết kế tỉ mỉ, vừa đảm bảo thể hiện được ý nghĩa , vừa đảm bảo mang phong cách hiện đại, hợp lý, đẹp mắt.',
+            'color' => '#5ca783',
+        ),
+        array(
+            'title' => 'CHẤT LƯỢNG HÌNH ẢNH CỰC CAO',
+            'desc' => 'Hóa Đơn Phong Thủy Hilo Invoice có chất lượng hình ảnh rất cao với độ nét và độ tương phản hoàn hảo. Luôn đảm bảo chất lượng hình ảnh hóa đơn đẹp 100% cho dù bạn sử dụng để gửi đến đối tác qua email hoặc in màu và in đen trắng.',
+            'color' => '#f2b72c',
+        ),
+    );
+    foreach ($data as $k1 => $v1) { ?>
+        <div>
+            <div class="uk-card uk-card-body card1" style="background-color: <?= $v1['color']; ?>">
+                <h3 class="title5"><?= $v1['title']; ?></h3>
+                <p class="desc3"><?= $v1['desc']; ?></p>
             </div>
-        <?php } ?>
-    </div>
+        </div>
+    <?php } ?>
+</div>
 <?php include "footer.php"; ?>

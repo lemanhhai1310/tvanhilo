@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c32f4da-421e-4857-b765-f7619724ef36" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hoadonphongthuy-gioithieu.php" beforeDir="false" afterPath="$PROJECT_DIR$/hoadonphongthuy-gioithieu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_hoadon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_hoadon.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +40,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/hoadonphongthuy-gioithieu.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="925">
-                  <caret line="121" column="37" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="37" />
+                <state relative-caret-position="595">
+                  <caret line="99" column="22" lean-forward="true" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -108,8 +107,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/_hoadon.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="930">
-                  <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+                <state relative-caret-position="135">
+                  <caret line="9" selection-start-line="9" selection-end-line="9" />
                 </state>
               </provider>
             </entry>
@@ -154,9 +153,9 @@
         <option value="$PROJECT_DIR$/hoadondientu-gioithieu.php" />
         <option value="$PROJECT_DIR$/hoadondientu-baogia.php" />
         <option value="$PROJECT_DIR$/hoadondientu-dichvu.php" />
-        <option value="$PROJECT_DIR$/scss/_hoadon.scss" />
         <option value="$PROJECT_DIR$/hoadondientu-mauhoadon.php" />
         <option value="$PROJECT_DIR$/hoadonphongthuy-gioithieu.php" />
+        <option value="$PROJECT_DIR$/scss/_hoadon.scss" />
       </list>
     </option>
   </component>
@@ -164,7 +163,7 @@
     <option name="x" value="1030" />
     <option name="y" value="4" />
     <option name="width" value="1335" />
-    <option name="height" value="1337" />
+    <option name="height" value="1355" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -184,12 +183,6 @@
               <item name="html.tvanhilo" type="b2602c69:ProjectViewProjectNode" />
               <item name="html.tvanhilo" type="462c0819:PsiDirectoryNode" />
               <item name="imgs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html.tvanhilo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html.tvanhilo" type="462c0819:PsiDirectoryNode" />
-              <item name="imgs" type="462c0819:PsiDirectoryNode" />
-              <item name="hoadon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="html.tvanhilo" type="b2602c69:ProjectViewProjectNode" />
@@ -245,7 +238,7 @@
       <workItem from="1559070612547" duration="1054000" />
       <workItem from="1559189102223" duration="249000" />
       <workItem from="1559204675331" duration="651000" />
-      <workItem from="1559556528496" duration="954000" />
+      <workItem from="1559556528496" duration="1128000" />
     </task>
     <task id="LOCAL-00001" summary="khởi tạo project">
       <created>1558637837042</created>
@@ -345,15 +338,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559070626135</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Mẫu hóa đơn thường kém sắc nét khi phóng to">
+      <created>1559558590384</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1559558590384</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37165000" />
+    <option name="totallyTimeSpent" value="37339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1030" y="4" width="1335" height="1337" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17942768" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -432,7 +431,8 @@
     <MESSAGE value="HÓA ĐƠN ĐIỆN TỬ HILO-INVOICE - báo giá hoàn thành" />
     <MESSAGE value="hóa đơn điện tử - dịch vụ" />
     <MESSAGE value="hóa đơn điện tử - mẫu hóa đơn" />
-    <option name="LAST_COMMIT_MESSAGE" value="hóa đơn điện tử - mẫu hóa đơn" />
+    <MESSAGE value="Mẫu hóa đơn thường kém sắc nét khi phóng to" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mẫu hóa đơn thường kém sắc nét khi phóng to" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
@@ -586,13 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_hoadon.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="835">
@@ -602,8 +595,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hoadonphongthuy-gioithieu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="121" column="37" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="37" />
+        <state relative-caret-position="595">
+          <caret line="99" column="22" lean-forward="true" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_hoadon.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
