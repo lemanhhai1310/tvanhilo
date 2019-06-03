@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c32f4da-421e-4857-b765-f7619724ef36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hoadonphongthuy-tracuu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hoadonphongthuy-tracuu.php" beforeDir="false" afterPath="$PROJECT_DIR$/hoadonphongthuy-tracuu.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +50,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/hoadonphongthuy-tracuu.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+                <state relative-caret-position="390">
+                  <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -254,7 +254,7 @@
       <workItem from="1559070612547" duration="1054000" />
       <workItem from="1559189102223" duration="249000" />
       <workItem from="1559204675331" duration="651000" />
-      <workItem from="1559556528496" duration="4142000" />
+      <workItem from="1559556528496" duration="4393000" />
     </task>
     <task id="LOCAL-00001" summary="khởi tạo project">
       <created>1558637837042</created>
@@ -389,11 +389,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559560988412</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="HÓA ĐƠN PHONG THỦY HILO - tra cứu">
+      <created>1559561960696</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1559561960696</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40353000" />
+    <option name="totallyTimeSpent" value="40604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="284" y="0" width="1335" height="1355" extended-state="0" />
@@ -482,7 +489,8 @@
     <MESSAGE value="NGHIÊN CỨU CẨN THẬN" />
     <MESSAGE value="5 MẪU HÓA ĐƠN MANG 5 MỆNH CƠ BẢN - update" />
     <MESSAGE value="HÓA ĐƠN PHONG THỦY HILO - giới thiệu - hoàn thành" />
-    <option name="LAST_COMMIT_MESSAGE" value="HÓA ĐƠN PHONG THỦY HILO - giới thiệu - hoàn thành" />
+    <MESSAGE value="HÓA ĐƠN PHONG THỦY HILO - tra cứu" />
+    <option name="LAST_COMMIT_MESSAGE" value="HÓA ĐƠN PHONG THỦY HILO - tra cứu" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
@@ -659,8 +667,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hoadonphongthuy-tracuu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="390">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
         </state>
       </provider>
     </entry>
