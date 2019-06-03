@@ -66,6 +66,22 @@
   }
 }
 //=====================================
+.hl-table1{
+  tr{
+    th{
+      text-transform: inherit;
+      border: 1px solid #e5e5e5;
+      text-align: center;
+      font-size: 15px;
+      color: rgb(103,103,103);
+      font-weight: bold;
+    }
+    td{
+      border: 1px solid #e5e5e5;
+    }
+  }
+}
+//=====================================
 #hl-block1{
   border-bottom: 1px solid #f57014;
 }
