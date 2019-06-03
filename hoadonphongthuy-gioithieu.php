@@ -133,7 +133,136 @@ foreach ($data as $k1 => $v1) { ?>
 </div>
 <div id="hl-block1" class="uk-section-small">
     <div class="uk-container">
-
+        <div class="hl-box1 uk-text-center uk-margin">
+            <h3 class="title uk-text-uppercase">5 MẪU HÓA ĐƠN MANG 5 MỆNH CƠ BẢN</h3>
+            <small>(Lưu ý: nhấn vào tên mệnh để đến trang phân tích)</small>
+        </div>
+        <div class="uk-child-width-1-5@m" uk-grid>
+            <?php
+            $data = array
+            (
+                array(
+                    'src' => 'imgs/5menhcoban/kim-2.jpg',
+                    'title' => 'MỆNH KIM - PT110',
+                ),
+                array(
+                    'src' => 'imgs/5menhcoban/moc.jpg',
+                    'title' => 'MỆNH MỘC - PT120',
+                ),
+                array(
+                    'src' => 'imgs/5menhcoban/tho2.jpg',
+                    'title' => 'MỆNH THỔ - PT130',
+                ),
+                array(
+                    'src' => 'imgs/5menhcoban/thuy.jpg',
+                    'title' => 'MỆNH THỦY - PT140',
+                ),
+                array(
+                    'src' => 'imgs/5menhcoban/hoa.jpg',
+                    'title' => 'MỆNH HỎA - PT150',
+                ),
+            );
+            foreach ($data as $k1 => $v1) { ?>
+                <div>
+                    <a class="uk-link-text" href="#">
+                        <figure class="uk-text-center">
+                            <img src="<?= $v1['src']; ?>" alt="">
+                            <figcaption><?= $v1['title']; ?></figcaption>
+                        </figure>
+                    </a>
+                </div>
+            <?php } ?>
+        </div>
+    </div>
+</div>
+<div class="uk-section-small">
+    <div class="uk-container">
+        <div class="hl-box1 uk-text-center uk-margin">
+            <h3 class="title uk-text-uppercase">30 MẪU HÓA ĐƠN CÁC NẠP ÂM</h3>
+            <small>(Lưu ý: nhấn vào tên nạp âm để đến trang phân tích)</small>
+        </div>
+        <div class="uk-child-width-1-6@m" uk-grid>
+            <?php
+            $data = array
+            (
+                array(
+                    'src' => 'imgs/6menhkim/kim-bach-lap-kim.jpg',
+                    'title' => 'Bạch Lạp Kim - PT111',
+                ),
+                array(
+                    'src' => 'imgs/6menhkim/kim-kim-bach-kim.jpg',
+                    'title' => 'Kim Bạch Kim - PT112',
+                ),
+                array(
+                    'src' => 'imgs/6menhkim/kim-thoa-xuyen-kim.jpg',
+                    'title' => 'Thoa Xuyến Kim - PT113',
+                ),
+                array(
+                    'src' => 'imgs/6menhkim/kim-kiem-phong-kim.jpg',
+                    'title' => 'Kiếm Phong Kim - PT114',
+                ),
+                array(
+                    'src' => 'imgs/6menhkim/kim-hai-trung-kim.jpg',
+                    'title' => 'Hải Trung Kim - PT115',
+                ),
+                array(
+                    'src' => 'imgs/6menhkim/kim-sa-trung-kim.jpg',
+                    'title' => 'Sa Trung Kim - PT116',
+                ),
+            );
+            foreach ($data as $k1 => $v1) { ?>
+                <div>
+                    <a class="uk-link-text hl-link1" href="#">
+                        <figure class="uk-text-center">
+                            <img src="<?= $v1['src']; ?>" alt="">
+                            <figcaption><?= $v1['title']; ?></figcaption>
+                        </figure>
+                    </a>
+                </div>
+            <?php } ?>
+        </div>
+        <div class="uk-margin uk-text-center">6 mẫu hóa đơn các nạp âm Mệnh Kim</div>
+        <div class="uk-child-width-1-6@m" uk-grid>
+            <?php
+            $data = array
+            (
+                array(
+                    'src' => 'imgs/6menhmoc/moc-binh-dia-moc.jpg',
+                    'title' => 'Bình Địa Mộc - PT121',
+                ),
+                array(
+                    'src' => 'imgs/6menhmoc/moc-tang-do-moc.jpg',
+                    'title' => 'Tang Đố Mộc - PT122',
+                ),
+                array(
+                    'src' => 'imgs/6menhmoc/moc-thach-luu-moc.jpg',
+                    'title' => 'Thạch Lựu Mộc - PT123',
+                ),
+                array(
+                    'src' => 'imgs/6menhmoc/moc-duong-lieu-moc.jpg',
+                    'title' => 'Dương Liễu Mộc - PT124',
+                ),
+                array(
+                    'src' => 'imgs/6menhmoc/moc-tung-bach-moc.jpg',
+                    'title' => 'Tùng Bách Mộc - PT125',
+                ),
+                array(
+                    'src' => 'imgs/6menhmoc/moc-dai-lam-moc-2.jpg',
+                    'title' => 'Đại Lâm Mộc - PT126',
+                ),
+            );
+            foreach ($data as $k1 => $v1) { ?>
+                <div>
+                    <a class="uk-link-text hl-link1" href="#">
+                        <figure class="uk-text-center">
+                            <img src="<?= $v1['src']; ?>" alt="">
+                            <figcaption><?= $v1['title']; ?></figcaption>
+                        </figure>
+                    </a>
+                </div>
+            <?php } ?>
+        </div>
+        <div class="uk-margin uk-text-center">6 mẫu hóa đơn các nạp âm Mệnh Mộc</div>
     </div>
 </div>
 <?php include "footer.php"; ?>

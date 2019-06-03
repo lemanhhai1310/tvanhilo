@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c32f4da-421e-4857-b765-f7619724ef36" name="Default Changelist" comment="">
+    <list default="true" id="3c32f4da-421e-4857-b765-f7619724ef36" name="Default Changelist" comment="5 MẪU HÓA ĐƠN MANG 5 MỆNH CƠ BẢN - update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hoadonphongthuy-gioithieu.php" beforeDir="false" afterPath="$PROJECT_DIR$/hoadonphongthuy-gioithieu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_hoadon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_hoadon.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +44,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/hoadonphongthuy-gioithieu.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="595">
-                  <caret line="99" column="22" lean-forward="true" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+                <state relative-caret-position="1081">
+                  <caret line="255" column="51" selection-start-line="255" selection-start-column="51" selection-end-line="255" selection-end-column="51" />
                 </state>
               </provider>
             </entry>
@@ -107,8 +111,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/_hoadon.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" selection-start-line="9" selection-end-line="9" />
+                <state relative-caret-position="913">
+                  <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
                 </state>
               </provider>
             </entry>
@@ -187,6 +191,12 @@
             <path>
               <item name="html.tvanhilo" type="b2602c69:ProjectViewProjectNode" />
               <item name="html.tvanhilo" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+              <item name="6menhmoc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html.tvanhilo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html.tvanhilo" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -238,7 +248,7 @@
       <workItem from="1559070612547" duration="1054000" />
       <workItem from="1559189102223" duration="249000" />
       <workItem from="1559204675331" duration="651000" />
-      <workItem from="1559556528496" duration="1128000" />
+      <workItem from="1559556528496" duration="3278000" />
     </task>
     <task id="LOCAL-00001" summary="khởi tạo project">
       <created>1558637837042</created>
@@ -345,18 +355,41 @@
       <option name="project" value="LOCAL" />
       <updated>1559558590384</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Mẫu hóa đơn thường kém sắc nét khi phóng to">
+      <created>1559558688460</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1559558688460</updated>
+    </task>
+    <task id="LOCAL-00017" summary="NGHIÊN CỨU CẨN THẬN">
+      <created>1559558760293</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1559558760293</updated>
+    </task>
+    <task id="LOCAL-00018" summary="5 MẪU HÓA ĐƠN MANG 5 MỆNH CƠ BẢN - update">
+      <created>1559559678296</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1559559678296</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37339000" />
+    <option name="totallyTimeSpent" value="39489000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1030" y="4" width="1335" height="1337" extended-state="0" />
+    <frame x="1030" y="4" width="1335" height="1355" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17942768" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" weight="0.32858273" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -366,7 +399,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49957448" weight="0.32931727" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49957448" weight="0.32858273" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32931727" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5004255" side_tool="true" weight="0.32931727" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -432,7 +465,9 @@
     <MESSAGE value="hóa đơn điện tử - dịch vụ" />
     <MESSAGE value="hóa đơn điện tử - mẫu hóa đơn" />
     <MESSAGE value="Mẫu hóa đơn thường kém sắc nét khi phóng to" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mẫu hóa đơn thường kém sắc nét khi phóng to" />
+    <MESSAGE value="NGHIÊN CỨU CẨN THẬN" />
+    <MESSAGE value="5 MẪU HÓA ĐƠN MANG 5 MỆNH CƠ BẢN - update" />
+    <option name="LAST_COMMIT_MESSAGE" value="5 MẪU HÓA ĐƠN MANG 5 MỆNH CƠ BẢN - update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
@@ -595,15 +630,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hoadonphongthuy-gioithieu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="99" column="22" lean-forward="true" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+        <state relative-caret-position="1081">
+          <caret line="255" column="51" selection-start-line="255" selection-start-column="51" selection-end-line="255" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/_hoadon.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="913">
+          <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
         </state>
       </provider>
     </entry>
