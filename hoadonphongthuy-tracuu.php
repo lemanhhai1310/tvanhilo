@@ -7,9 +7,21 @@ $data = array
         'src' => 'imgs/bg1.jpg',
         'title' => 'MẪU HÓA ĐƠN PHONG THỦY HILO GIỚI THIỆU',
         'sub' => array(
-            'giới thiệu',
-            'tra cứu',
-            'kim',
+            array(
+                'txt' => 'giới thiệu',
+                'color' => '',
+                'icon' => '<i class="fa fa-star-o" aria-hidden="true"></i>',
+            ),
+            array(
+                'txt' => 'tra cứu',
+                'color' => '',
+                'icon' => '<i class="fa fa-search" aria-hidden="true"></i>',
+            ),
+            array(
+                'txt' => 'kim',
+                'color' => '',
+                'icon' => '<i class="fa fa-search" aria-hidden="true"></i>',
+            ),
             'mộc',
             'thổ',
             'thủy',
@@ -18,7 +30,7 @@ $data = array
     ),
 );
 foreach ($data as $k1 => $v1) { ?>
-    <?php include "block1.php"; ?>
+    <?php include "block2.php"; ?>
 <?php } ?>
 <div class="uk-section">
     <div class="uk-container">
