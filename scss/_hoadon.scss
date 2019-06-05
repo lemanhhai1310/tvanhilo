@@ -100,6 +100,25 @@
   }
 }
 //=====================================
+.hl-title1{
+  font-size: 22px;
+  color: #96989a;
+  letter-spacing: 2px;
+  &.c1{
+    color: #333333;
+  }
+}
+.hl-btn1{
+  text-transform: capitalize;
+  background-color: rgba(0,0,0,.045);
+  color: #888888;
+  &.uk-active{
+    background-color: #f57014;
+    border-color: #f57014;
+    color: #FFFFFF;
+  }
+}
+//=====================================
 .title10{
   font-size: 19px;
   font-weight: 500;

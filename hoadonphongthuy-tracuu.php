@@ -9,23 +9,39 @@ $data = array
         'sub' => array(
             array(
                 'txt' => 'giới thiệu',
-                'color' => '',
-                'icon' => '<i class="fa fa-star-o" aria-hidden="true"></i>',
+                'color' => '#f57014',
+                'icon' => '<i class="iconsmind-Starfish"></i>',
             ),
             array(
                 'txt' => 'tra cứu',
-                'color' => '',
-                'icon' => '<i class="fa fa-search" aria-hidden="true"></i>',
+                'color' => '#f57014',
+                'icon' => '<i class="iconsmind-Search-People"></i>',
             ),
             array(
                 'txt' => 'kim',
-                'color' => '',
-                'icon' => '<i class="fa fa-search" aria-hidden="true"></i>',
+                'color' => 'rgb(153,153,153)',
+                'icon' => '<i class="iconsmind-Coin"></i>',
             ),
-            'mộc',
-            'thổ',
-            'thủy',
-            'hỏa',
+            array(
+                'txt' => 'mộc',
+                'color' => 'rgb(39,174,96)',
+                'icon' => '<i class="iconsmind-Leafs"></i>',
+            ),
+            array(
+                'txt' => 'thổ',
+                'color' => 'rgb(246,185,59)',
+                'icon' => '<i class="iconsmind-Globe"></i>',
+            ),
+            array(
+                'txt' => 'thủy',
+                'color' => 'rgb(52,152,219)',
+                'icon' => '<i class="iconsmind-Drop"></i>',
+            ),
+            array(
+                'txt' => 'hỏa',
+                'color' => 'rgb(254,70,65)',
+                'icon' => '<i class="iconsmind-Fire-Flame"></i>',
+            ),
         ),
     ),
 );
